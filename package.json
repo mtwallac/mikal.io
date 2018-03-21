@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "browser-sync": "latest",
     "gulp": "latest",
     "gulp-util": "latest",
     "gulp-sass": "latest",
