@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat');
 
 var jsSources = ['build/scripts/*.js'],
-    sassSources = ['build/styles/sass/*.scss'],
+    sassSources = ['build/styles/*.scss'],
     htmlSources = ['**/*.html'];
 
 
