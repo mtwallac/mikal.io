@@ -54,12 +54,5 @@ gulp.task('watch', function() {
   gulp.watch(htmlSources).on('change', browserSync.reload);
 });
 
-gulp.task('connect', function() {
-  connect.server({
-    root: '.',
-    livereload: true,
-    port: 3030
-  })
-});
 
 gulp.task('default', ['watch']);
