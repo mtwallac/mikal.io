@@ -191,7 +191,6 @@ a {
     transform: translate3d(-2250px,0,0); } }
 
 #bg {
-  background-size: 2250px auto;
   width: 6750px; }
 
 /* Overlay */
@@ -511,7 +510,6 @@ a {
       -ms-transform: translate3d(-1500px,0,0);
       transform: translate3d(-1500px,0,0); } }
   #bg {
-    background-size: 1500px auto;
     width: 4500px; } }
 
 /* Normal */
@@ -565,7 +563,6 @@ a {
       -ms-transform: translate3d(-1500px,0,0);
       transform: translate3d(-1500px,0,0); } }
   #bg {
-    background-size: 1500px auto;
     width: 4500px; } }
 
 /* Mobile */
@@ -621,7 +618,6 @@ a {
       -ms-transform: translate3d(-750px,0,0);
       transform: translate3d(-750px,0,0); } }
   #bg {
-    background-size: 750px auto;
     width: 2250px; }
   /* Header */
   #header h1 {
@@ -683,7 +679,6 @@ a {
       -ms-transform: translate3d(-375px,0,0);
       transform: translate3d(-375px,0,0); } }
   #bg {
-    background-size: 375px auto;
     width: 1125px; }
   /* Header */
   #header nav {
