@@ -2,11 +2,14 @@
   "devDependencies": {
     "browser-sync": "latest",
     "gulp": "latest",
-    "gulp-util": "latest",
-    "gulp-sass": "latest",
     "gulp-coffee": "latest",
-    "gulp-uglify": "latest",
     "gulp-concat": "latest",
-    "gulp-connect": "latest"
+    "gulp-connect": "latest",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }
