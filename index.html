@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/script.js"></script>
 	</head>
 	<body class="loading">
@@ -20,10 +21,20 @@
 						<ul>
 							<li><a href="https://www.linkedin.com/in/michael-wallace-81004212b/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/mtwallac" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o email" data-reveal-id="myModal"><span class="label">Email</span></a></li>
 						</ul>
 					</nav>
 				</header>
+
+
+				<!-- Modal -->
+				<div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+				  <h2 id="modalTitle">Awesome. I have it.</h2>
+				  <p class="lead">Your couch.  It is mine.</p>
+				  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+				  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+				</div>
+
 			</div>
 		</div>
 	</body>

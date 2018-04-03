@@ -1,1 +1,1 @@
-window.onload=function(){document.body.className=""},window.ontouchmove=function(){return!1},window.onorientationchange=function(){document.body.scrollTop=0};
+window.onload=function(){document.body.className=""},window.ontouchmove=function(){return!1},window.onorientationchange=function(){document.body.scrollTop=0},$(document).ready(function(){$(".email").on("touch click",function(){$(".emial").trigger("click")}),$("a.close-reveal-modal").trigger("click")});
