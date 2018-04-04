@@ -10,7 +10,6 @@
     "gulp-util": "latest"
   },
   "dependencies": {
-    "jquery": "^3.0.0",
     "izimodal": "^1.5.1",
     "npm": "^5.8.0"
   }
