@@ -4,8 +4,6 @@ window.onorientationchange = function() { document.body.scrollTop = 0; }
 
 $(document).ready(function(){
 
-
-
   $("#myModal").iziModal({
     title: 'Contact Me',
     headerColor: '#5A2B74',
